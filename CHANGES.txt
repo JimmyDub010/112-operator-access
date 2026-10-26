@@ -1,0 +1,64 @@
+112 OPERATOR ACCESSIBILITY - CHANGES
+
+Version 0.0.23 - August 27, 2026
+
+- Added readable duty results: F9 reads the overall duty summary, while F3 and
+  Shift+F3 browse individual incident outcomes on the results screen.
+- F3 continues to browse live incidents during an active duty.
+- F2, F3, and F4 now support Shift for backward browsing.
+- Incident browsing now reports required services, responding and onsite units,
+  transport needs, and clearer operational progress.
+- Added human-readable incident requirement and multi-scene completion updates.
+- Improved duty-start and management-mode guidance so players know whether the
+  duty is running.
+- Improved district selection guidance, availability descriptions, and Career
+  Point feedback.
+- Predefined unit purchases now announce price, available funds, affordability,
+  and missing staff or equipment.
+- Repeated identical unit-status announcements are suppressed for 30 seconds,
+  reducing speech floods caused by rapidly changing native unit states.
+- Fixed unit numbering and ordering, misleading Start/Management labels, duty-
+  summary detection, and several stale or internal UI labels.
+
+Version 0.0.14 - August 26, 2026
+
+- Call navigation now contains only the active dialogue choices and End Call
+  control after a call has been answered. Background game settings and controls
+  no longer appear mixed into the call choices.
+- External Unity selection changes are ignored when the selected control is not
+  part of the currently accessible control list.
+
+Version 0.0.13 - August 26, 2026
+
+- The starting-area screen now explains that F4 browses districts, F5 selects
+  the chosen district, and Start can then be activated with Enter.
+- Improved context discovery for controls that previously announced only "On"
+  or "Off" by locating the nearest visible caption in the containing UI canvas.
+
+Version 0.0.12 - August 26, 2026
+
+- Pressing the game's native Space play/pause control now announces "Paused"
+  or "Resumed" after the game confirms the state change.
+- The mod observes the native pause state and does not replace the game's pause
+  implementation.
+
+Version 0.0.11 - August 26, 2026
+
+- Added contextual labels for toggle controls whose direct text is only "On"
+  or "Off."
+
+Version 0.0.10 - August 21, 2026
+
+- Established the first public known-good release baseline.
+- Added NVDA speech and braille output.
+- Added Up/Down menu navigation and Enter activation.
+- Preserved native Space pause and 1/2/3 speed controls.
+- Added F1 repeat, F2 unit browsing, F3 incident browsing, F4/F5 starting-
+  district access, F6 new-incident access, F7 incoming-call access, and F8
+  direct player-controlled dispatch.
+- Added localized incident names, new-incident announcements, readable unit
+  status and tasks, and multi-scene incident progress announcements.
+- Verified Free Game, Career Mode, incoming calls, full duties, transport tasks,
+  dispatch, multi-scene completion, and duty completion.
+
+This is an unofficial accessibility modification for 112 Operator.

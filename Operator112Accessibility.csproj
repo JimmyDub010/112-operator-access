@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>Operator112Accessibility</AssemblyName>
+    <RootNamespace>Operator112Accessibility</RootNamespace>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <DebugType>portable</DebugType>
+    <OutputPath>staging</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="AccessibilityPlugin.cs" />
+    <Reference Include="BepInEx"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\BepInEx\core\BepInEx.dll</HintPath></Reference>
+    <Reference Include="0Harmony"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\BepInEx\core\0Harmony.dll</HintPath></Reference>
+    <Reference Include="Main"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\Main.dll</HintPath></Reference>
+    <Reference Include="UnityEngine"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.CoreModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.CoreModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.InputLegacyModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.AnimationModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.AnimationModule.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UI"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.UI.dll</HintPath></Reference>
+    <Reference Include="UnityEngine.UIModule"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\UnityEngine.UIModule.dll</HintPath></Reference>
+    <Reference Include="Unity.TextMeshPro"><HintPath>C:\Program Files (x86)\Steam\steamapps\common\112 Operator\Operator 112_Data\Managed\Unity.TextMeshPro.dll</HintPath></Reference>
+  </ItemGroup>
+</Project>
